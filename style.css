@@ -1,0 +1,271 @@
+.bg-main{
+
+}
+.bg-quadrant{
+  width:50%;
+  height: 50%;
+  position: fixed;
+}
+.left-top{
+top:0;
+left:0;
+background-color: #ECECEC;
+}
+.right-top{
+top:0;
+right:0;
+background-color: #2071FF;
+}
+
+.left-bottom{
+bottom:0;
+left:0;
+background-color: #2071FF;
+}
+
+.right-bottom{
+  bottom:0;
+  right:0;
+  background: #ECECEC;
+}
+
+.circle1{
+  position: relative;
+  top:55px;
+  left:40px;
+  border-radius: 50%;
+  width: 100px;
+  height:100px;
+  background: #2071FF;
+}
+.circle2{
+  position: fixed;
+  top:35px;
+  left:340px;
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+  background: #9FBEF5;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top:15vh;
+  height: 500px;
+}
+.upper-bg{
+  width:100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+
+}
+.login-section{
+  width:50%;
+  padding: 0 0;
+
+}
+.login-right-section{
+  width:50%;
+  height: 100%;
+  background-color: white;
+}
+
+
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.login-form {
+    background: #fff;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: table;
+    padding: 15px 6 0px 30px;
+    box-sizing: border-box;
+}
+.form-group {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  position: relative;
+}
+.login-form input {
+    width: 100%;
+    padding: 5px;
+    height: 56px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.login-form .form-group .input-icon {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    height: 100%;
+    padding-left: 15px;
+    color: #666;
+}
+.login-form .form-group .fa{
+  padding: 5px;
+}
+.login-form .login-btn {
+  background: #4880EF;
+  padding: 11px 50px;
+  border-color: #45aba6;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  border: 1px solid #45aba6;
+  border-radius: 44px;
+  width: 40%;
+  height: 56px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.login-form .reset-psw {
+  float: right;
+  width: 49%;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: right;
+  margin-top: 5px;
+}
+.login-form button:hover{
+  opacity: 0.9;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  height: 12px;
+  font-size: 12px;
+  float: left;
+}
+
+h1{
+  font-weight: 900;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.sign-up-section{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  background-color: #5287F1;
+  }
+
+.nav-bar-signup{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.nav-bar-signup a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.signup-btn{
+  background: #ffffff;
+  padding: 11px 50px;
+  border-color: #45aba6;
+  color: blue;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  border: 1px solid #45aba6;
+  border-radius: 44px;
+  width: 40%;
+  height: 56px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.sign-up-section h1, .sign-up-section p {
+  color:#ffffff;
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 768px) {
+.login-form {
+    width: 90%;
+    padding: 15px 15px 30px;
+}
+.upper-bg{
+  display: flex;
+  flex-direction: column;
+}
+.login-section{
+  width:100%;
+}
+.login-right-section{
+  width:100%;
+}
+}
